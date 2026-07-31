@@ -1,8 +1,25 @@
 aid: neverware
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neverware.png
 name: Neverware
-description: 'Neverware is a company surfaced as a portfolio company of thrive-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Neverware was a New York-based software company, backed by Thrive Capital,
+  best known for CloudReady — a ChromiumOS-based operating system that converted aging
+  PCs and Macs into fast, secure, cloud-first Chromebook-like endpoints for schools
+  and enterprises. Google acquired Neverware and folded CloudReady into ChromeOS Flex:
+  the neverware.com domain now 301-redirects to Google''s ChromeOS Flex product pages
+  (chromeos.google/products/chromeos-flex) and its certificate issuance is controlled
+  by Google (CAA pki.goog). The company operates no standalone public developer API,
+  SDK, or documentation surface today.'
 url: https://raw.githubusercontent.com/api-evangelist/neverware/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,20 @@ x-backed-by:
 - thrive-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: google
+x-succeeded-by: https://chromeos.google/products/chromeos-flex/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Operating System
+- ChromeOS
+- Endpoint Management
+- Device Refurbishment
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/neverware-domain-security.yml
 - type: Website
   url: https://www.neverware.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
