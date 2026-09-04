@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.neverware.com', status: 301, note: 'declared website redirects to https://chromeos.google/products/chromeos-flex/ — a different registrable domain (neverware.com -> chromeos.google), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neverware.png
 name: Neverware
 description: 'Neverware was a New York-based software company, backed by Thrive Capital,
