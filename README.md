@@ -64,6 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Neverware is a company surfaced as a portfolio company of thrive-capital and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: thrive-capital — https://www.neverware.com
+Neverware was a New York-based software company, backed by Thrive Capital, best known for CloudReady — a ChromiumOS-based operating system that converted aging PCs and Macs into fast, secure, cloud-first Chromebook-like endpoints for schools and enterprises. Google acquired Neverware and folded CloudReady into ChromeOS Flex: the neverware.com domain now 301-redirects to Google's ChromeOS Flex product pages (chromeos.google/products/chromeos-flex) and its certificate issuance is controlled by Google (CAA pki.goog). The company operates no standalone public developer API, SDK, or documentation surface today.
+
+**Areas:** Company · Enterprise · Operating System · Chrome OS · Endpoint Management · Device Refurbishment · Acquired
+
+## Neverware on APIs.io (historical record)
+
+Everything profiled for Neverware is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/neverware/](https://apis.io/providers/neverware/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Neverware Domain Security](https://apis.io/security/neverware/neverware-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.neverware.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Neverware: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/neverware/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
